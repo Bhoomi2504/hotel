@@ -19,7 +19,7 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 WORKDIR /var/www/html/
 
 # Copy composer.json and composer.lock separately to leverage Docker cache
-COPY composer.json composer.lock ./
+COPY composer.json ./
 
 # Install PHP dependencies (production mode, no dev dependencies)
 RUN composer install --no-dev --optimize-autoloader --no-interaction --prefer-dist --verbose
