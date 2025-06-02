@@ -22,7 +22,7 @@ WORKDIR /var/www/html/
 COPY composer.json ./
 
 # Install PHP dependencies (production mode, no dev dependencies)
-RUN composer install --no-dev --optimize-autoloader --no-interaction --prefer-dist --verbose
+RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
 
 # Now copy all application files
 COPY . .
