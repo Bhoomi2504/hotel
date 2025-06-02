@@ -1,28 +1,37 @@
-# Use official PHP image with Apache
+# Use official PHP 8.1 image with Apache
 FROM php:8.1-apache
 
-# Enable Apache mod_rewrite (common for PHP apps)
+# Install system dependencies required for Composer and PHP extensions
+RUN apt-get update && apt-get install -y \
+    git \
+    unzip \
+    libzip-dev zip \
+    && docker-php-ext-install zip pdo pdo_mysql \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Enable Apache mod_rewrite for pretty URLs
 RUN a2enmod rewrite
 
-# Install system dependencies and PHP extensions (adjust if needed)
-RUN apt-get update && apt-get install -y \
-    libzip-dev zip unzip \
-    && docker-php-ext-install zip pdo pdo_mysql
-
-# Copy your app into the container
-COPY . /var/www/html/
-
-# Set working directory
-WORKDIR /var/www/html/
-
-# Install Composer (copy from the official composer image)
+# Copy Composer binary from official Composer image
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-# Run composer install to install dependencies
-RUN composer install --no-dev --optimize-autoloader
+# Set working directory inside container
+WORKDIR /var/www/html/
 
-# Expose port 80
+# Copy composer.json and composer.lock separately to leverage Docker cache
+COPY composer.json composer.lock ./
+
+# Install PHP dependencies (production mode, no dev dependencies)
+RUN composer install --no-dev --optimize-autoloader --no-interaction --prefer-dist --verbose
+
+# Now copy all application files
+COPY . .
+
+# Set proper permissions (optional, depends on your app)
+RUN chown -R www-data:www-data /var/www/html/
+
+# Expose port 80 for HTTP traffic
 EXPOSE 80
 
-# Start Apache (default command for php:apache image)
+# Start Apache in the foreground (default command)
 CMD ["apache2-foreground"]
