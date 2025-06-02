@@ -8,7 +8,8 @@ include("./includes/header.php");
       <?php include("./includes/navbar.php"); ?>
       <div class="home-header--title">
         <div class="container p-5">
-          <h1>Find the best deals</h1>
+        <h1 style="color:rgb(255, 255, 255);">Sunrise Paradise Resort  </h1>
+          <h2 style="font-size: 3rem; color:#074687" ><b>Find the best deals</b></h2>
           <h3 id="reservation-form">for your next trip</h3>
         </div>
       </div>
@@ -81,7 +82,7 @@ include("./includes/header.php");
             </ul>
           </div>
           <div class="form-group">
-            <button type="submit" class="btn btn-primary" name="find-rooms">
+            <button type="submit" class="btn btn-primary" name="find-rooms" >
             Search
             </button>
           </div>
@@ -98,12 +99,12 @@ include("./includes/header.php");
           <div class="col col-md-3">
             <div class="card">
               <div class="card-body">
-                <img src="./media/images/rooms/1.jpg" alt="" />
+                <img src="./media/images/rooms/picture2.avif" alt="">
               </div>
               <div class="card-footer">
                 <div class="footer-head">
                   <div class="label">Premium</div>
-                  <div class="price">$120/day</div>
+                  <div class="price">$500/day</div>
                 </div>
                 <div class="footer-body">Daimond Suite</div>
                 <!-- <div class="footer-foot">lemon</div> -->
@@ -113,14 +114,14 @@ include("./includes/header.php");
           <div class="col col-md-3">
             <div class="card">
               <div class="card-body">
-                <img src="./media/images/rooms/2.jpg" alt="" />
+                <img src="./media/images/rooms/picture3.avif" alt="" />
               </div>
               <div class="card-footer">
                 <div class="footer-head">
                   <div class="label">Premium</div>
-                  <div class="price">$120/day</div>
+                  <div class="price">$350/day</div>
                 </div>
-                <div class="footer-body">Daimond Suite</div>
+                <div class="footer-body">Standard Suite</div>
                 <!-- <div class="footer-foot">lemon</div> -->
               </div>
             </div>
@@ -128,14 +129,14 @@ include("./includes/header.php");
           <div class="col col-md-3">
             <div class="card">
               <div class="card-body">
-                <img src="./media/images/rooms/3.jpg" alt="" />
+                <img src="./media/images/rooms/picture5.webp" alt="" />
               </div>
               <div class="card-footer">
                 <div class="footer-head">
                   <div class="label">Premium</div>
-                  <div class="price">$120/day</div>
+                  <div class="price">$250/day</div>
                 </div>
-                <div class="footer-body">Daimond Suite</div>
+                <div class="footer-body">Deluxe Suite</div>
                 <!-- <div class="footer-foot">lemon</div> -->
               </div>
             </div>
@@ -143,14 +144,14 @@ include("./includes/header.php");
           <div class="col col-md-3">
             <div class="card">
               <div class="card-body">
-                <img src="./media/images/rooms/4.jpg" alt="" />
+                <img src="./media/images/rooms/picture4.avif" alt="" />
               </div>
               <div class="card-footer">
                 <div class="footer-head">
                   <div class="label">Premium</div>
                   <div class="price">$120/day</div>
                 </div>
-                <div class="footer-body">Daimond Suite</div>
+                <div class="footer-body">Single Suite</div>
                 <!-- <div class="footer-foot">lemon</div> -->
               </div>
             </div>
@@ -170,34 +171,31 @@ include("./includes/header.php");
         </div>
       </div>
     </section>
-    <section id="decoration-accomodation">
+    <section id="decoration-accomodation" style="background-color:#295363 ">
       <div class="container my-5 py-5">
         <div class="row">
           <div class="col-md-5">
             <div class="content">
               <div class="section-title">
-                <h2>Choose the perfect accomodation</h2>
+                <h2  style="color:#ffd37b">Choose the perfect accomodation</h2>
               </div>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
-                illum veniam qui veritatis praesentium voluptates atque enim
-                quia exercitationem ipsa quaerat, delectus officia dolore rem
-                consequatur nesciunt. Ullam, consequuntur necessitatibus.m
+              Finding the right room can make all the difference in your travel experience. Whether you're on a relaxing vacation, a quick business trip, or a family getaway, we offer a range of accommodation options tailored to your needs.
               </p>
             </div>
           </div>
           <div class="col-md-7 card-container">
             <div class="card">
               <div class="card-body">
-                <img src="./media/images/backgrounds/home-1.jpg" alt="" />
+                <img src="./media/images/backgrounds/picture.1.jpg" alt="" />
               </div>
-              <div class="card-footer">lemon</div>
+              <div class="card-footer">Pools</div>
             </div>
             <div class="card">
               <div class="card-body">
-                <img src="./media/images/backgrounds/home-2.jpg" alt="" />
+                <img src="./media/images/backgrounds/room6.webp" alt="" />
               </div>
-              <div class="card-footer">lemon</div>
+              <div class="card-footer"> Recreational Activities</div>
             </div>
           </div>
         </div>
@@ -210,14 +208,14 @@ include("./includes/header.php");
             <div class="card-container">
               <div class="card">
                 <div class="card-body">
-                  <img src="./media/images/backgrounds/home-1.jpg" alt="" />
+                  <img src="./media/images/rooms/picture.avif" alt="" />
                 </div>
                 <div class="card-footer">
                   <div class="footer-head">
                     <div class="label">Premium</div>
-                    <div class="price">$120/day</div>
+                    <div class="price">$500/day</div>
                   </div>
-                  <div class="footer-body">Daimond Suite</div>
+                  <div class="footer-body">Deluxe Suite</div>
                   <!-- <div class="footer-foot">lemon</div> -->
                 </div>
               </div>
@@ -225,14 +223,14 @@ include("./includes/header.php");
                 <div class="spacer"></div> -->
               <div class="card">
                 <div class="card-body">
-                  <img src="./media/images/backgrounds/home-2.jpg" alt="" />
+                  <img src="./media/images/rooms/picture2.avif" alt="" />
                 </div>
                 <div class="card-footer">
                   <div class="footer-head">
                     <div class="label">Premium</div>
-                    <div class="price">$120/day</div>
+                    <div class="price">$350/day</div>
                   </div>
-                  <div class="footer-body">Daimond Suite</div>
+                  <div class="footer-body">Standard Suite</div>
                   <!-- <div class="footer-foot">lemon</div> -->
                 </div>
               </div>
@@ -245,10 +243,9 @@ include("./includes/header.php");
                 <h2>Premium deals for your premium needs</h2>
               </div>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
-                illum veniam qui veritatis praesentium voluptates atque enim
-                quia exercitationem ipsa quaerat, delectus officia dolore rem
-                consequatur nesciunt. Ullam, consequuntur necessitatibus.m
+              Indulge in luxury without breaking the bank. Our handpicked premium packages offer top-tier comfort, exclusive amenities, and unforgettable experiences—all at unbeatable prices. Whether it's a romantic getaway, a business trip, or a special celebration, we’ve got the perfect deal tailored just for you.
+
+Because you deserve the best—at the best price.
               </p>
             </div>
           </div>
@@ -260,7 +257,7 @@ include("./includes/header.php");
         <div class="container">
           <div class="jumbotron">
             <h6>Our newsletter</h6>
-            <h2>Become a member and enjoy flat 25% discounts on Booking.</h2>
+            <h2>Become a member and enjoy flat 30% discounts on Booking.</h2>
           </div>
         </div>
       </div>

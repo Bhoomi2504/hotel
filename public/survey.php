@@ -31,13 +31,13 @@ button{
     border-radius: 30px !important;
     /* background: rgba(255, 0, 0, 0.08) !important ;
     color: rgba(0, 0, 0, 0.8) !important; */
-    background: linear-gradient(to right, rgb(222, 23, 23), red , rgb(254, 59, 59));
+    background: linear-gradient(to right, rgb(58, 185, 235) , rgb(12, 142, 194));
     width:20% !important;
     color:white !important;
 }
 </style>
 <div class="container mb-4">
-<h1 class="text-center">Feedback</h1>
+<h1 class="text-center" style="color:rgb(12, 142, 194)">Feedback</h1>
 <div class="row justify-content-center">
 <div class="col-md-6 bg-light form-box ">
 

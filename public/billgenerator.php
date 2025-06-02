@@ -76,7 +76,7 @@ if (isset($_POST["signup-user"])) {
     <tr>
       <td colspan="2" ><form method="POST">
  <div class="col">
-    <button class="btn btn-danger" name="submit" id="printpagebutton" onclick="printpage()">Print</button>
+    <button class="btn btn-primary" name="submit" id="printpagebutton" onclick="printpage()">Print</button>
     <a href="./index.php" class="btn btn-primary" id="backpagebutton">Back</a>
 </div>
  </form></td>

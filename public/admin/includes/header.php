@@ -38,8 +38,8 @@
   </head>
   <body class="admin">
 <header id="admin-header">
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="<?php echo SROOT."/admin/index.php"; ?>"><img src="<?php echo SROOT."/public/media/images/logo/aaa_logo.png";?>" class="d-inline-block align-top" height="90px"></img></a>
+<nav class="navbar navbar-expand-lg navbar-dark navcolor">
+    <a class="navbar-brand" href="<?php echo SROOT."/admin/index.php"; ?>"><img src="<?php echo SROOT."/public/media/images/logo/sunrise.png";?>" class="d-inline-block align-top" height="90px"></img></a>
     <button
         class="navbar-toggler"
         type="button"
@@ -53,7 +53,7 @@
     </button>
 
     <div
-        class="collapse navbar-collapse bg-dark w-100"
+        class="collapse navbar-collapse navcolor w-100"
         id="navbarSupportedContent"
     >
         <ul class="navbar-nav ml-auto">
@@ -89,7 +89,7 @@
             </div>
         </li>
         </ul>
-        <ul class="navbar-nav side-nav bg-dark text-light">
+        <ul class="navbar-nav side-nav navcolor text-light" >
         <li class="nav-item">
             <a class="nav-link" href="<?php echo SROOT."/admin/rooms.php"; ?>">Rooms</a>
         </li>

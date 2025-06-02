@@ -5,6 +5,11 @@ include("./includes/header.php");
   <body>
     <header>
       <?php include("./includes/navbar.php"); ?>
+      <style>
+        .navcolor{
+background-color:  #0f90df;
+}
+      </style>
     </header>
     <div class="container my-5">
       <div class="section-title">
@@ -99,7 +104,7 @@ include("./includes/header.php");
     <?php include("./includes/footer.php"); ?>
     <script>
          $(document).ready(function() {
-        $("nav").eq(0).addClass("bg-dark");
+        $("nav").eq(0).addClass("navcolor");
         $("nav").eq(0).addClass("navbar-dark");
 
         $("footer").eq(0).addClass("bg-dark");

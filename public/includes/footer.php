@@ -1,12 +1,12 @@
 <!-- Footer -->
-<footer class="page-footer font-small blue pt-4 ">
+<footer class="page-footer font-small blue pt-4 " >
   <!-- Footer Links -->
-  <div class="container">
+  <div class="container" >
     <!-- Grid row -->
     <div class="row">
       <!-- Grid column -->
       <div class="col-md-4 mb-md-0 mb-3">
-        <h5>AAA Resorts</h5>
+        <h5 style="color: #062b42">Sunrise Paradise Resorts</h5>
         <ul class="list-unstyled">
           <li>
             <a href="#!">About us</a>
@@ -52,9 +52,9 @@
   <!-- Footer Links -->
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">
-    © 2020 Copyright:
-    <a href="https://github.com/alandsilva26/hotel-management-php/"
-      >Tripple A association</a
+    © 2025 Copyright:
+    <a href="#"
+      >Sunrise Paradise Resorts association</a
       >
   </div>
   <!-- Copyright -->

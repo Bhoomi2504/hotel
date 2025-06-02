@@ -35,7 +35,7 @@ include("./config.php");
     
             <div id="customer">
     
-                <p id="customer-title">AAA Hotel, Resorts & Spa International</p>
+                <p id="customer-title" style="color: #0b6399">Sunrise Paradise Resorts</p>
     
                 <table id="meta">
                     <tr>

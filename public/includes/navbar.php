@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-md px-md-5">
-  <a class="navbar-brand" href="<?php echo SROOT."/public/index.php"; ?>"><img src="<?php echo SROOT."/public/media/images/logo/aaa_logo.png";?>" class="d-inline-block align-top" style="max-height:100px;"></img></a>
+<nav class="navbar navbar-expand-md px-md-5 " >
+  <a class="navbar-brand" href="<?php echo SROOT."/public/index.php"; ?>"><img src="<?php echo SROOT."/public/media/images/logo/sunrise.png";?>" class="d-inline-block align-top" style="max-height:100px;"></img></a>
   <button
     class="navbar-toggler"
     type="button"
@@ -14,22 +14,22 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo SROOT."/public/index.php"; ?>">Home</a>
+        <a class="nav-link navtext" href="<?php echo SROOT."/public/index.php"; ?>">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo SROOT."/public/rooms.php"; ?>">Rooms</a>
+        <a class="nav-link navtext" href="<?php echo SROOT."/public/rooms.php"; ?>">Rooms</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo SROOT."/public/reservation.php"; ?>"
-          >Reservation</a
+        <a class="nav-link navtext" href="<?php echo SROOT."/public/reservation.php"; ?>" 
+          >Booking</a
           >
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo SROOT."/public/aboutus.php"; ?>">About Us</a>
+        <a class="nav-link navtext" href="<?php echo SROOT."/public/aboutus.php"; ?>">About Us</a>
       </li>
       <li class="nav-item dropdown">
         <a
-          class="nav-link dropdown-toggle"
+          class="nav-link dropdown-toggle navtext"
           href="#"
           id="navbarDropdown"
           role="button"

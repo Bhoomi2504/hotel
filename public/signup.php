@@ -113,7 +113,7 @@
                     placeholder="Enter your password"
                     class="form-control"
                   />
-                  <small id="user_password_error" class="error-message text-danger"></small>
+                  <small id="user_password_error" class="error-message text-primary"></small>
                 </div>
 
                 <!-- Step 3 buttons -->
@@ -185,6 +185,7 @@
           $(".error-message").html("");
           $(".form-control").removeClass("is-invalid");
           $("#signup-user").html("Signing you in...");
+          
 
           e.preventDefault();
           var formData = new FormData(this);

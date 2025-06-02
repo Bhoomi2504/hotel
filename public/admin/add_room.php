@@ -5,7 +5,7 @@
 <section class="content admin-form">
 
   <div class="container">
-  <h2 class="">Add Room</h2>
+  <h2 class="" color=" #094970">Add Room</h2>
     <!-- Start of form -->
     <form action="" id="add_room_form" method="post" enctype="multipart/form-data" >
       <div class="text-danger">
@@ -80,7 +80,7 @@
           <div class="text-danger" id="error-form">
           </div>
           <div class="form-group my-0.25">
-            <button id="add_room" type="submit" name="add_room" value="add_room" class="btn btn-primary">Add Room</button>
+            <button id="add_room" type="submit" name="add_room" value="add_room" class="btn btn-primary" style="background-color:#094970">Add Room</button>
           </div>
         </div>
       </div>

@@ -11,6 +11,7 @@
         }
         ?>
       </div>
+      
         <table
           id="dtVerticalScrollExample"
           class="table table-striped table-bordered small"

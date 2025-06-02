@@ -14,14 +14,19 @@ if (isset($_GET["check_in_date"])) {
 ?>
 
 <?php include("./includes/header.php"); ?>
+<style>
+   .nav1{
+      background: linear-gradient(45deg,  #062b42, #234e5f, #49747b,#9db9ba, #062b42) !important;
+   }
+</style>
   <body>
     <?php include("./includes/navbar.php"); ?>
 
-<section id="reservation">
+<section id="reservation" style="background-color:#dee9e9">
    <div class="container mt-5">
       <div class="row">
          <div class="col-md-5">
-         <h1>Make your reservation</h1>
+         <h1 style="color: #062b42"><b>Make your reservation</b></h1>
                 <p>
                   Our hotel is self-certified to follow a series of
                   precautionary measures to make your hotel stay safe and
@@ -84,7 +89,7 @@ if (isset($_GET["check_in_date"])) {
                         </div>
                      </div>
                      <div class="form-btn">
-                        <button class="btn btn-primary submit-btn" name="confirm_booking">Continue to payment</button>
+                        <button class="btn btn-primary submit-btn" name="confirm_booking" style="background:linear-gradient(45deg,  #062b42, #234e5f, #49747b,#9db9ba, #062b42) ">Continue to payment</button>
                      </div>
                   </form>
                </div>
@@ -117,7 +122,7 @@ if (isset($_GET["check_in_date"])) {
 
     $(document).ready(function() {
       //  console.log(new Date($("#check_in_date").val()));
-        $("nav").eq(0).addClass("bg-dark");
+        $("nav").eq(0).addClass("nav1");
         $("nav").eq(0).addClass("navbar-dark");
         // bg-dark navbar-dark 
 
